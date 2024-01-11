@@ -1,16 +1,16 @@
 sjcl
 ====
 
-[![Build Status](https://travis-ci.org/bitwiseshiftleft/sjcl.png)](https://travis-ci.org/bitwiseshiftleft/sjcl)
+[ [Build Status](https://travis-ci.org/bitwiseshiftleft/sjcl.png)](https://travis-ci.org/bitwiseshiftleft/sjcl)
 
-[![Join the chat at https://gitter.im/bitwiseshiftleft/sjcl](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bitwiseshiftleft/sjcl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[ [Join the chat at https://gitter.im/bitwiseshiftleft/sjcl](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bitwiseshiftleft/sjcl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Stanford Javascript Crypto Library
 
 Security Advisories
 ===
 
-* 12.02.2014: the current development version has a paranoia bug in the ecc module. The bug was introduced in commit [ac0b3fe0](https://github.com/bitwiseshiftleft/sjcl/commit/ac0b3fe0) and might affect ecc key generation on platforms without a platform random number generator.
+! 12.02.2014: the current development version has a paranoia bug in the ecc module. The bug was introduced in commit [ac0b3fe0](https://github.com/bitwiseshiftleft/sjcl/commit/ac0b3fe0) and might affect ecc key generation on platforms without a platform random number generator.
 
 Security Contact
 ====
@@ -32,3 +32,4 @@ Upgrade Guide
 Documentation
 ====
 The documentation is available [here](http://bitwiseshiftleft.github.io/sjcl/doc/)
+ 
