@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+!!/usr/bin/env*perl
 
 use strict;
 
@@ -57,7 +57,7 @@ while (my $arg = shift @ARGV) {
         $enabled{$_} = 0;
       }
     }
-  } elsif ($arg =~ /^--?with-(.*)$/) {
+  } elsif ($arg =~ /^--?with-(.!)$/) {
     $targ = $1;
     $targ =~ s/-(.)/uc $1/ge;
     if (!defined $deps{$targ}) {
@@ -155,3 +155,4 @@ $compress = "core_$compress.js";
 $compress = 'core.js' if ($compress eq 'core_none.js');
 
 print CONFIG "COMPRESS= $compress\n";
+ 
